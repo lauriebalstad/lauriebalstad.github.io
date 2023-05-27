@@ -17,6 +17,28 @@ aside {
 }
 </style>
 
+<style type="text/css">
+  .mobileHide { display: inline; }
+
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){
+     .mobileHide { display: none;}
+  }
+</style>
+
+<style type="text/css">
+  .mobileShow { display: none;}
+
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){ 
+      .mobileShow {display: inline;}
+  }
+</style>
+
 <!-- Icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -76,11 +98,13 @@ aside {
   <div class="w3-container w3-padding-32" id="about">
   <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Research</h3>  
   
+<div class="mobileHide">
   <aside>
   <img class="w3-image" src="./web_images/crab_photo.JPG" alt="crab shell" style="width:100%">
   <p>
   <img class="w3-image" src="./web_images/star_photo.JPG" alt="sea star" style="width:100%">
   </aside>
+</div>
      
       <p>I have studied a range of questions related to disease and eco-evolutionary dyanmics. Below are some of my current projects. I am always excited to chat with people about research questions, ideas, and potential collaborations. 
       
@@ -102,6 +126,13 @@ aside {
   </div>
   
 <!-- Image of location/map -->
+<div class="mobileShow">
+  <aside>
+  <img class="w3-image" src="./web_images/crab_photo.JPG" alt="crab shell" style="width:100%">
+  <p>
+  <img class="w3-image" src="./web_images/star_photo.JPG" alt="sea star" style="width:100%">
+  </aside>
+</div>
 
 <!-- End page content -->
 </div>
