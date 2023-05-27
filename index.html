@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<style>
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+}
+</style>
+
+<!-- Icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- template https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_architect&stacked=h-->
+<!-- demo https://www.w3schools.com/w3css/tryw3css_templates_architect.htm#projects-->
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Laurie Balstad</b> Theoretical Ecologist</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">About</a>
+      <a href="#about" class="w3-bar-item w3-button">Research</a>
+      <a href="#contact" class="w3-bar-item w3-button">Outreach</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="web_images/top_photo.jpg" alt="sea stars" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"> <span class="w3-hide-small w3-text-light-grey">Eco-evolutionary Disease Dyanamics</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- About Section -->
+  
+  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+  
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="web_images/laurie_profile.jpg" alt="Laurie" style="width:100%">
+      <p><button class="w3-button w3-light-grey w3-block">My CV (May 2023) src="web_assets/CV_May2023.jpg"></button></p>
+    </div>
+    
+    <p> I am a current <a href="https://pbg.ucdavis.edu/">Population Biology</a> PhD student at the University of California in <a href="http://www.des.ucdavis.edu/faculty/baskett/">Marissa Baskett's lab</a>. I use mathematical models to answer questions across the basic/applied spectrum related to disease and eco-evolutionary dynamics, mostly in marine systems. My research is currently supported by the <a href="https://sustainableoceans.ucdavis.edu/">Sustainable Oceans Traineeship</a> at UC Davis and an NSF Grdauate Research Fellowship award. 
+    
+    <p> Before coming to UC Davis, I completed my undergraduate degree in Biology and Mathematics at St. Olaf College.
+    
+    <div class="icon-bar">
+    <a class="active" style=font-size:30px;color:#828282 href="https://github.com/lauriebalstad"><i class="fa fa-github"></i></a>
+    <a style=font-size:30px;color:#828282 href="mailto: lbalstad@ucdavs.edu"><i class="fa fa-envelope"></i></a>
+    </div>
+
+
+  <!-- Research Section -->
+  <div class="w3-container w3-padding-32" id="about">
+  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Research</h3>  
+  
+  <aside>
+  <img src="web_images/crab_photo.jpg" alt="crab shell" style="width:100%">
+  <p>
+  <img src="web_images/star_photo.jpg" alt="sea star" style="width:100%">
+  </aside>
+     
+      <p>I have studied a range of questions related to disease and eco-evolutionary dyanmics. Below are some of my current projects. I am always excited to chat with people about research questions, ideas, and potential collaborations. 
+      
+      <p><b>Bitter crab disease:</b> Bitter crab disease (<i>Hematodinium perezi</i>) is a fatal disease infecting snow crab (<i>Chionoecetes opilio</i>) in the Eastern Bering Sea. With collaborators at NOAA, I am developing a spatio-temporal statistical model to understand patterns of bitter crab disease across the region over the past ~30 years.</p>
+
+      <p><b>Resistance evolution:</b> Sea lice (<i>Lepeophtheirus salmonis</i>) are a common nusience parasite on salmon farms. To avoid negative costs of sea lice, aquaculture managers heavily treat lice, leading to novel selection pressures which favor treatment resistance. I am constructing a mathematical model to understand how different treatment and production strategies may slow evolution of treatment resistance. This model can be used to evaluate three-way trade-offs (or synergies) between aquaculture economics, conservation, and resistance evoltuion.</p>
+
+      <p><b>Virulence evolution:</b> Parasites show a diverse range of virulence: some parasites have minor effects to their hosts, while others are lethal. I am building a theoretical model to understand how macroparasite virulence evolves using an emperical-relevent viruelnce metric (slowed host growth). This model will be applied to the sea lice/salmon aquaculture case study, to consider how different management practices can alter virulence evolution.</p>
+      
+      <p><b>Evolutionary rescue:</b> Disease can lead to host population declines. Simulatnously, hosts can evolve resistance to parasites across many dimensions: reduced mortality, increased recovery, etc, which may allow for populaiton recovery. I plan to create a genetic/demographic coupled model to understand how resistance type may change disease dynamics and potential of evolutionary rescue. </p>
+
+</div>
+
+  <!-- Outreach Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Outreach</h3>
+    <p>I am proud to be part of the <a href="https://eegradpreview.weebly.com/">UC Davis Evolution & Ecology Preview Program</a>. This program aims to remove barriers to graduate school by making the graduate school application process more transparent. I used information from Preview Program when I was applying to graduate school and am grateful to give back to the program. While at UC Davis, I have acted as the program's Support Chair (2023), Co-Mentor Coordinator (2022) and a workshop leader (2022, Finding & Contacting Potential Advisors).</p>
+    
+  </div>
+  
+<!-- Image of location/map -->
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Website template from <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
