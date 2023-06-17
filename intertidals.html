@@ -15,6 +15,18 @@ aside {
   margin-left: 15px;
   float: right;
 }
+
+.column {
+  float: left;
+  width: 30%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 
 <style type="text/css">
@@ -72,9 +84,50 @@ aside {
         <img src="./intertides_images/sea_star.jpg" alt="sea star" style="width:100%">
       	</div>
     	</div>
+
+	<p></p>
+
+	<div class="row">
+
+  		<div class="column">
+		<div class="w3-col l12 m6 w3-margin-bottom">
+      		<div class="w3-display-container">
+        	<div class="w3-display-bottomright w3-black w3-padding">leather star (picnic day, Davis)</div>
+        	<img src="./intertides_images/picnic_day_star.jpg" alt="picnic" style="width:100%">
+      		</div>
+    		</div>
+		</div>
+
+  		<div class="column">
+		<div class="w3-col l12 m6 w3-margin-bottom">
+      		<div class="w3-display-container">
+        	<div class="w3-display-bottomright w3-black w3-padding">pink sea star</div>
+        	<img src="./intertides_images/pink_star.jpg" alt="pink star" style="width:100%">
+      		</div>
+    		</div>
+		</div>
+
+  		<div class="column">
+		<div class="w3-col l12 m6 w3-margin-bottom">
+      		<div class="w3-display-container">
+        	<div class="w3-display-bottomright w3-black w3-padding">orange sea cuc</div>
+        	<img src="./intertides_images/sea_cuc.jpg" alt="sea cuc" style="width:100%">
+      		</div>
+    		</div>
+		</div>
+
+	</div>
         
         <p></p>
         
+	<div class="w3-col l12 m6 w3-margin-bottom">
+      	<div class="w3-display-container">
+        <div class="w3-display-bottomright w3-black w3-padding">whale anatomy (allen marine)</div>
+        <img src="./intertides_images/whale_boop.jpg" alt="whale boop" style="width:100%">
+      	</div>
+    	</div>
+	
+	<p></p>
      
     </div>
     
@@ -84,7 +137,6 @@ aside {
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
-  <p>Photos: LM Balstad, MC Sandoval, LJ Balstad, AM Balstad</p>
   <p>Intertidal photos taken in my hometown of Juneau, AK. <a href="intertidals.html">More here!</a></p>
   <p>Website template from <a href="https://www.w3schools.com/w3css/default.asp" title="Laurie Balstad" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
