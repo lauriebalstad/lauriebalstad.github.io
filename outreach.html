@@ -23,7 +23,7 @@ aside {
   /* Smartphone Portrait and Landscape */
   @media only screen
     and (min-device-width : 320px)
-    and (max-device-width : 480px){
+    and (max-device-width : 600px){
      .mobileHide { display: none;}
   }
 </style>
@@ -34,9 +34,19 @@ aside {
   /* Smartphone Portrait and Landscape */
   @media only screen
     and (min-device-width : 320px)
-    and (max-device-width : 480px){ 
+    and (max-device-width : 600px){ 
       .mobileShow {display: inline;}
   }
+</style>
+
+<style>
+	.rotate-image {
+
+	/* Adjust the angle as needed */
+	transform: rotate(90deg);
+	margin-top: 100px;
+
+        }
 </style>
 
 <!-- Icon library -->
@@ -61,7 +71,7 @@ aside {
 <!-- Page content -->
   
   <div class="mobileShow">
-  <img src="./web_images/rainbow_crab.jpg" alt="snow crab" style="width:100%"> 
+  <img src="./web_images/rainbow_crab.jpg" alt="snow crab" style="width:100%", class="rotate-image"> 
   </div>
   
   <div class="mobileHide">
